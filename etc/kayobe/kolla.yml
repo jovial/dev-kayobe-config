@@ -24,17 +24,17 @@
 # Kolla-ansible installation.
 
 # Type of Kolla-ansible control installation. One of 'binary' or 'source'.
-#kolla_ansible_ctl_install_type:
+kolla_ansible_ctl_install_type: source
 
 # Path to directory for kolla-ansible source code checkout.
 #kolla_ansible_source_path:
 
 # URL of Kolla Ansible source code repository if type is 'source'.
-#kolla_ansible_source_url:
+kolla_ansible_source_url: https://github.com/jovial/kolla-ansible
 
 # Version (branch, tag, etc.) of Kolla Ansible source code repository if type
 # is 'source'.
-#kolla_ansible_source_version:
+kolla_ansible_source_version: ipxe_action_patch
 
 # Path to virtualenv in which to install kolla-ansible.
 #kolla_ansible_venv:
@@ -156,6 +156,7 @@
 #kolla_enable_horizon:
 #kolla_enable_influxdb:
 #kolla_enable_ironic:
+#kolla_enable_ironic_ipxe: True
 #kolla_enable_iscsid:
 #kolla_enable_karbor:
 #kolla_enable_kuryr:
